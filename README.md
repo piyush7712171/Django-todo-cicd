@@ -9,6 +9,15 @@ $ git clone https://github.com/shreys7/django-todo.git
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
+                                                        Or
+```bash                                                    
+$ sudo apt install python3-pip
+```
+
+```bash
+$ pip install django
+```
+
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
 ```bash
@@ -33,6 +42,6 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 $ python manage.py runserver
 ```
 
-Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
+Once the server is hosted, head over to local host http://127.0.0.1:8000/todos for the Application.
 
 Cheers and Happy Coding :)
